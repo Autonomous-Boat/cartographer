@@ -1,0 +1,32 @@
+{
+  "name": "cartographer",
+  "version": "1.0.0",
+  "description": "Path Planning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Autonomous-Boat/cartographer.git"
+  },
+  "author": "drakeerv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Autonomous-Boat/cartographer/issues"
+  },
+  "homepage": "https://github.com/Autonomous-Boat/cartographer#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "tilestrata": "^2.3.2",
+    "tilestrata-disk": "^0.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "pino-pretty": "^10.0.0"
+  },
+  "type": "module"
+}
